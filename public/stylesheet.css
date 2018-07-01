@@ -5,7 +5,6 @@
 
 #header{
     width: 98vw;
-    background-image: url(assets/background1.jpg);
     border-bottom: 0.5px solid rgba(255,255,255,0.3);
     display: flex;
     justify-content: center;
