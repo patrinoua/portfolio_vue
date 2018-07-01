@@ -16,7 +16,9 @@ var myProjectObjects = myProjects.map(function(project){
         codeMsg: require('./projects/' + project + '/project.json' ).codeMsg,
         github_url: require('./projects/' + project + '/project.json' ).github_url,
         createdWith: require('./projects/' + project + '/project.json' ).createdWith,
-        comments: require('./projects/' + project + '/project.json' ).comments
+        comment: require('./projects/' + project + '/project.json' ).comment,
+        comment_link: require('./projects/' + project + '/project.json' ).comment_link,
+        comment_url: require('./projects/' + project + '/project.json' ).comment_url,
     }
 })
 

@@ -6,5 +6,7 @@
     "codeMsg":"Check out the code",
     "github_url":"https://github.com/patrinoua/finalproject",
     "createdWith":"Made with Node.js, React, Redux and Socket.io",
-    "comments": "Project developed in collaboration with Daniel Ariel"
+    "comment": "Project developed in collaboration with",
+    "comment_link": "Daniel Ariel",
+    "comment_url": "https://github.com/danielarielS"
 }
