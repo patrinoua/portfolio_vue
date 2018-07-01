@@ -1,0 +1,10 @@
+{
+    "displayName": "Imageboard",
+    "description": "Users can upload pictures, description and comments.",
+    "tryMsg":"Upload pictures!",
+    "heroku_url":"https://imageboard-spiced.herokuapp.com/",
+    "codeMsg":"Check out the code",
+    "github_url":"https://github.com/patrinoua/imageboard",
+    "createdWith":"Build with Vue.js & Express",
+    "comments": " "
+}

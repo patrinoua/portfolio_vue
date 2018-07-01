@@ -1,0 +1,10 @@
+{
+    "displayName": "Connect 4",
+    "description": "Connect 4 is an application with a nice design and transactions.",
+    "tryMsg":"Play at",
+    "codeMsg":"Check out the code",
+    "createdWith":"Created with Javascript & jQuery",
+    "comments": "",
+    "heroku_url":"https://connect4-spiced.herokuapp.com/",
+    "github_url":"https://connect4-spiced.herokuapp.com/"
+}

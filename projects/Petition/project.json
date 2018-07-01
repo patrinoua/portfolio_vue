@@ -1,0 +1,10 @@
+{
+    "displayName": "Petition",
+    "description": "Sign my online petition to bring back the sun in Berlin!",
+    "tryMsg":"Sign at",
+    "heroku_url":"https://petition-spiced.herokuapp.com/",
+    "codeMsg":"Check out the code",
+    "github_url":"https://github.com/patrinoua/petition",
+    "createdWith":"Built with Node.js, React.js",
+    "comments": "*After an enormous participation on this petition the sun came to Berlin!"
+}
