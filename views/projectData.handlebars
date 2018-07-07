@@ -7,19 +7,20 @@
         target="_blank"
     >
     </a>
-
-    <div class="projectSectionText">
-        <a  class="smallContentTitle"
-            href={{heroku_url}}
-            target="_blank"
-        >
-             {{displayName}}
-        </a>
-        <span class="spanWithSpaceUnder"> {{description}} </span>
-        <span class="projectInfoText"> {{tryMsg}} <a href={{heroku_url}} target="_blank"> {{heroku_url}} </a></span>
-        <span class="projectInfoText"> {{codeMsg}} <a href={{github_url}} target="_blank"> {{github_url}} </a></span>
-        <span class="projectInfoText"> {{createdWith}} </span>
-        <span style="font-size:0.8em" class="projectInfoText"> {{comment}} <a href={{comment_url}} target="_blank">{{comment_link}}</a> </span>
+    <div class="textContainer">
+        <div class="projectSectionText">
+            <a  class="smallContentTitle"
+                href={{heroku_url}}
+                target="_blank"
+            >
+                 {{displayName}}
+            </a>
+            <span class="spanWithSpaceUnder"> {{description}} </span>
+            <span class="projectInfoText"> {{tryMsg}} <a href={{heroku_url}} target="_blank"> {{heroku_url}} </a></span>
+            <span class="projectInfoText"> {{codeMsg}} <a href={{github_url}} target="_blank"> {{github_url}} </a></span>
+            <span class="projectInfoText"> {{createdWith}} </span>
+            <span style="font-size:0.8em" class="projectInfoText"> {{comment}} <a href={{comment_url}} target="_blank">{{comment_link}}</a> </span>
+        </div>
     </div>
 
 {{/myProjectObjects}}
