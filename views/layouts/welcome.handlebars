@@ -107,6 +107,16 @@
         <div id="footer">
             <span class="container copyright">© Copyright - Angeliki Patrinou </span>
         </div>
-        <script type="text/javascript" src="script.js"></script>
+        <!-- <script type="text/javascript" src="script.js"></script> -->
+        <script>
+            $('.menuItem').click(function(e){
+                e.preventDefault();
+                let navigationTarget = '#'+e.target.href.split("#").pop();
+                let navigationTargetSelector=$(navigationTarget);
+                $('html, body').animate({
+                    scrollTop: $(navigationTarget).offset().top
+                }, "slow");
+            });
+        </script>
     </main>
 </html>

@@ -212,6 +212,7 @@
 }
 .projectInfoText{
     padding: 20px;
+    font-size:0.8em;
 }
 #contactBlock .contentTitle{
     padding-top: 0;
@@ -322,8 +323,12 @@ a:visited{
     }
     .projectSectionImg{
         opacity: 1;
-        height: 55vh;
-        background-color: green;
+        height: 50vh;
+        /* background-color: green; */
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: contain;
     }
     .aboutAngelikiContent{
         flex-direction: column;
@@ -341,6 +346,9 @@ a:visited{
     .textContainer {
         /* box-shadow: 1px 1px 18px 13px #060429; */
     }
+    .smallContentTitle{
+        padding-top: 0vh;
+    }
     .navigationName{
         font-size: 20px;
     }
@@ -355,7 +363,8 @@ a:visited{
         /* filter: invert(1); */
     }
     .projectSectionText {
-    align-items: flex-start;
+        align-items: center;
+        margin-bottom: 2vh;
     }
     .projectSectionText a{
         /* color: white; */
@@ -367,9 +376,19 @@ a:visited{
     .projectInfoText {
         font-size: 0.8em;
         padding: 17px 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .linkMobile{
+        /* background-color: green; */
+        display: flex;
+        font-size: 0.75em;
+        padding-top: 1vh;
     }
     #footer{
         /* background-color: #191919; */
         /* color: #eeeeee; */
     }
+
 }
