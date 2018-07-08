@@ -8,5 +8,12 @@
     "createdWith":"Technologies used: HTML, CSS, Ajax",
     "comment": "",
     "comment_link": "",
-    "comment_url": ""
+    "comment_url": "",
+
+    "displayNameGr": "Αναζήτηση στο Spotify",
+    "descriptionGr": "Πραγματοποιεί αναζήτηση για καλλιτέχνες ή Άλμπουμ και εμφανίζει τα αποτελέσματα με ωραίο τρόπο.",
+    "tryMsgGr":"Ανακαλύψτε νέα μουσική",
+    "codeMsgGr":"Δείτε τον κώδικα",
+    "createdWithGr":"Δημιουργήθηκε με χρήση HTML, CSS, Ajax",
+    "commentGr":""
 }

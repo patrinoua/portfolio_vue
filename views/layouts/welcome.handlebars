@@ -15,30 +15,33 @@
         <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
         <link rel="icon" type="image/png" href="assets/blackdot.png" sizes="16x16">
+        <script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <title>Angeliki</title>
     </head>
+    <style>
+        *{
+            font-family: {{content.myFont}}
+        }
+    </style>
     <main>
         <div id="header" style="background-image: url(assets/background.jpg)">
             <div id="navigation">
                 <div class="container">
                     <div class="navigationBar">
                         <div class="navigationName">
-                            Angeliki Patrinou
+                            {{content.name}}
                         </div>
                         <div class="menuItems">
                             <a class="menuItem" href="#aboutAngeliki" style="color:rgba(255,255,255,0.8)">
-                                about
+                                {{content.about}}
                             </a>
                             <a class="menuItem" href="#projectsBlock" style="color:rgba(255,255,255,0.8)">
-                                work
+                                {{content.work}}
                             </a>
                             <a class="menuItem" href="#contactBlock" style="color:rgba(255,255,255,0.8)">
-                                contact
+                                {{content.contact}}
                             </a>
-                            <div class="borderLine menuItem">
-                            </div>
-
                             <a class="menuIcon githubIcon"
                                 href="https://github.com/patrinoua/"
                                 target="_blank">
@@ -49,6 +52,11 @@
                                 target="_blank">
                                 <img src="assets/linkedinIcon.png" />
                             </a>
+                            <div class="borderLine menuItem">
+                            </div>
+                            <a href="/" class="languageItem" style="color:rgba(255,255,255,0.8);">EN</a> |
+                            <a href="gr" class="languageItem" style="color:rgba(255,255,255,0.8);">GR</a>
+                            <!-- <a href="de" class="languageItem" style="color:rgba(255,255,255,0.8);"> | DE</a> -->
                         </div>
                     </div>
                 </div>
@@ -56,7 +64,7 @@
             <div id="aboutMeSection">
                 <div class="container">
                     <div class="slideshow_caption">
-                        <h2>Full Stack Developer</h2>
+                        <h2>{{content.title}}</h2>
                     </div>
                 </div>
             </div>
@@ -65,15 +73,13 @@
             <div class="container">
                 <div class="aboutAngelikiBlock">
                     <div class="contentTitle">
-                        About
+                        {{content.about}}
                     </div>
                     <div class="aboutAngelikiContent">
                         <div class="aboutAngelikiPicture">
                         </div>
                         <div class="aboutAngelikiContentRight">
-                            I am a Full Stack Developer, based in Berlin.
-                            I have studied Applied Mathematics and Management, and my professional experience includes online marketing and dynamical systems consulting.
-                            I like creating websites that work well and feel good, by using the latest technologies.
+                            {{content.personalDescription}}
                         </div>
                     </div>
                 </div>
@@ -88,7 +94,7 @@
         <div id="contactBlock">
             <div class="contactForm">
                 <div class="contentTitle">
-                    Contact
+                    {{content.contact}}
                 </div>
 
                 <div> patrinoua@gmail.com </div>
@@ -107,7 +113,7 @@
         <div id="footer">
             <span class="container copyright">© Copyright - Angeliki Patrinou </span>
         </div>
-        <!-- <script type="text/javascript" src="script.js"></script> -->
+
         <script>
             $('.menuItem').click(function(e){
                 e.preventDefault();

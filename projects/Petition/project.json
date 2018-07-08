@@ -8,5 +8,12 @@
     "createdWith":"Built with Node.js, React.js",
     "comment": "*After an enormous participation on this petition the sun came to Berlin!",
     "comment_link":" ",
-    "comment_url": " "
+    "comment_url": " ",
+
+    "displayNameGr": "Λίστα Υπογραφών",
+    "descriptionGr": "Ατελείωτος ο χειμώνας φέτος και γι αυτό μάζεψα υπογραφές για να έρθει ο ήλιος στο Βερολίνο!",
+    "tryMsgGr":"Υπογράψτε εδώ",
+    "codeMsgGr":"Δείτε τον κώδικα",
+    "createdWithGr":"Δημιουργήθηκε με χρήση Node.js & React.js",
+    "commentGr":"*Μετά από μεγάλη συμμετοχή ο ήλιος ήρθε τελικά!"
 }

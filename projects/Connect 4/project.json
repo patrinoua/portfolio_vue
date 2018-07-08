@@ -8,5 +8,12 @@
     "github_url":"https://github.com/patrinoua/connect4",
     "comment": "",
     "comment_link": "",
-    "comment_url": ""
+    "comment_url": "",
+
+    "displayNameGr": "Σκορ 4",
+    "descriptionGr": "Το γνωστό παιχνίδι με ωραία γραφικά.",
+    "tryMsgGr":"Παίξτε εδώ",
+    "codeMsgGr":"Δείτε τον κώδικα",
+    "createdWithGr":"Δημιουργήθηκε με χρήση Javascript & jQuery",
+    "commentGr":""
 }

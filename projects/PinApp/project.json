@@ -8,5 +8,12 @@
     "createdWith":"Made with Node.js, React, Redux and Socket.io",
     "comment": "Project developed in collaboration with",
     "comment_link": "Daniel Ariel",
-    "comment_url": "https://github.com/danielarielS"
+    "comment_url": "https://github.com/danielarielS",
+
+    "displayNameGr": "PinApp",
+    "descriptionGr": "To PinApp είναι μία mobile friendly εφαρμογή που επιτρέπει στο χρήστη να προσθέσει, να τροποποιήσει και να μοιραστεί τις αγαπημένες του περιοχές",
+    "tryMsgGr":"Βάλτε και εσείς pins!",
+    "codeMsgGr":"Δείτε τον κώδικα",
+    "createdWithGr":"Δημιουργήθηκε με χρήση Node.js, React, Redux and Socket.io",
+    "commentGr":"Αυτό το project έγινε σε συνεργασία με τον"
 }
