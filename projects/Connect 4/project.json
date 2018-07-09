@@ -1,6 +1,6 @@
 {
     "displayName": "Connect 4",
-    "description": "Connect 4 is an application with a nice design and transactions.",
+    "description": "Connect 4 is an application with a minimal design and transitions.",
     "tryMsg":"Play at",
     "codeMsg":"Check out the code",
     "createdWith":"Created with Javascript & jQuery",
