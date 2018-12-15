@@ -9,11 +9,12 @@ exports.contentEn={
     title:'Full Stack Developer',
 
     personalDescription:`
-        I am a Full Stack Developer, based in Berlin.
+        I am a professional Web Developer that lives and works in Berlin.
         I have studied Applied Mathematics and Management,
-        and my professional experience includes online marketing
-        and dynamical systems consulting.
-        I like creating websites that work well and feel good,
+        and my professional experience includes Online Marketing
+        and Dynamical Systems Consulting.
+
+        I like creating Websites that work well and feel good,
         by using the latest technologies.`,
 
     myFont:'Quicksand'
@@ -28,11 +29,13 @@ exports.contentGr={
     title:'Σχεδιασμός Ιστοσελίδων',
 
     personalDescription:`
-        Με λένε Αγγελική και ζω στο Βερολίνο.
+        Με λένε Αγγελική, είμαι επαγγελματίας δημιουργός ιστοσελίδων
+        και τα τελευταία χρόνια ζω και εργάζομαι στο Βερολίνο.
         Έχω σπουδάσει Μαθηματικά και Διοίκηση Επιχειρήσεων
-        και έχω εργαστεί στο Online Marketing, και την προώθηση και ως Σύμβουλος Επιχειρήσεων.
-        Μου αρέσει να φτιάχνω ιστοσελίδες που λειτουργούνε καλά
-        και φαίνονται ωραία, χρησιμοποιώντας της τελευταίες τεχνολογίες.
+        και στο παρελθόν έχω εργαστεί ως σύμβουλος Online Marketing και
+        προώθησης στο διαδίκτυο και ως Σύμβουλος Επιχειρήσεων.
+        Μου αρέσει να φτιάχνω εύχρηστες ιστοσελίδες με ωραίο design,
+        χρησιμοποιώντας της τελευταίες τεχνολογίες.
         `,
     myFont:'Helvetica'
 }
