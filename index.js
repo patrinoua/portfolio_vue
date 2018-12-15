@@ -39,7 +39,6 @@ var myProjectObjectsGr = myProjects.map(function(project){
         github_url: require('./projects/' + project + '/project.json' ).github_url,
         comment_link: require('./projects/' + project + '/project.json' ).comment_link,
         comment_url: require('./projects/' + project + '/project.json' ).comment_url,
-
         displayName: require('./projects/' + project + '/project.json' ).displayNameGr ||"displaynamestaellliiinikkaaaa",
         description: require('./projects/' + project + '/project.json' ).descriptionGr,
         tryMsg: require('./projects/' + project + '/project.json' ).tryMsgGr,
