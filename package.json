@@ -11,7 +11,7 @@
     "vue-i18n": "^8.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4"
+    "nodemon": "^1.18.9"
   },
   "scripts": {
     "start": "node index.js",
