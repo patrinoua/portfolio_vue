@@ -1,15 +1,14 @@
+exports.contentEn = {
+  name: 'Angeliki Patrinou',
 
-exports.contentEn={
-    name:'Angeliki Patrinou',
+  about: 'About',
+  work: 'Work',
+  contact: 'Contact',
 
-    about:'About',
-    work:'Work',
-    contact:'Contact',
+  title: 'Full Stack Developer',
 
-    title:'Full Stack Developer',
-
-    personalDescription:`
-        I am a professional Web Developer that lives and works in Berlin.
+  personalDescription: `
+        I am a Fullstack Web Developer that lives and works in Berlin.
         I have studied Applied Mathematics and Management,
         and my professional experience includes Online Marketing
         and Dynamical Systems Consulting.
@@ -17,19 +16,19 @@ exports.contentEn={
         I like creating Websites that work well and feel good,
         by using the latest technologies.`,
 
-    myFont:'Quicksand'
+  myFont: 'Quicksand'
 }
-exports.contentGr={
-    name:'Αγγελική Πατρινού',
+exports.contentGr = {
+  name: 'Αγγελική Πατρινού',
 
-    about:'Σχετικά',
-    work:'Πορτφόλιο',
-    contact:'Επικοινωνία',
+  about: 'Σχετικά',
+  work: 'Πορτφόλιο',
+  contact: 'Επικοινωνία',
 
-    title:'Σχεδιασμός Ιστοσελίδων',
+  title: 'Σχεδιασμός Ιστοσελίδων',
 
-    personalDescription:`
-        Με λένε Αγγελική, είμαι επαγγελματίας δημιουργός ιστοσελίδων
+  personalDescription: `
+        Με λένε Αγγελική, είμαι δημιουργός ιστοσελίδων
         και τα τελευταία χρόνια ζω και εργάζομαι στο Βερολίνο.
         Έχω σπουδάσει Μαθηματικά και Διοίκηση Επιχειρήσεων
         και στο παρελθόν έχω εργαστεί ως σύμβουλος Online Marketing και
@@ -37,5 +36,5 @@ exports.contentGr={
         Μου αρέσει να φτιάχνω εύχρηστες ιστοσελίδες με ωραίο design,
         χρησιμοποιώντας της τελευταίες τεχνολογίες.
         `,
-    myFont:'Helvetica'
+  myFont: 'Helvetica'
 }
