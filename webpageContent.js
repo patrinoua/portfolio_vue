@@ -4,7 +4,8 @@ exports.contentEn = {
   about: 'About',
   work: 'Work',
   contact: 'Contact',
-
+  detailedCv: 'Detailed CV',
+  shortCv: 'Short CV',
   title: 'Full Stack Developer',
 
   personalDescription: `
@@ -24,7 +25,8 @@ exports.contentGr = {
   about: 'Σχετικά',
   work: 'Πορτφόλιο',
   contact: 'Επικοινωνία',
-
+  detailedCv: 'Αναλυτικό Βιογραφικό',
+  shortCv: 'Σύντομο Βιογραφικό',
   title: 'Σχεδιασμός Ιστοσελίδων',
 
   personalDescription: `

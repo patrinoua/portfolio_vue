@@ -149,6 +149,15 @@
     justify-content: space-around;
     align-items: center;
 }
+.flexDirCol{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.cvArea{
+  display: flex;
+  padding: 20px 0;
+}
 .aboutAngelikiPicture{
     width: 40%;
     height: 80%;
@@ -288,6 +297,7 @@
 }
 a{
     text-decoration:none;
+    color: black;
 }
 a:hover{
     cursor: pointer;
