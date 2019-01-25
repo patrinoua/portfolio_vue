@@ -9,7 +9,7 @@ exports.contentEn = {
   title: 'Full Stack Developer',
 
   personalDescription: `
-        I am a Fullstack Web Developer that lives and works in Berlin.
+        I am a Fullstack Web Developer based in Berlin.
         I have studied Applied Mathematics and Management,
         and my professional experience includes Online Marketing
         and Dynamical Systems Consulting.
