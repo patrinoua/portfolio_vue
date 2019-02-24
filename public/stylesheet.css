@@ -161,9 +161,6 @@
 .aboutAngelikiPicture{
     width: 40%;
     height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url("assets/angeliki-mik.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -364,7 +361,7 @@ a:visited{
     }
     .aboutAngelikiContent{
         flex-direction: column;
-        height: 75vh;
+        height: 85vh;
     }
     .aboutAngelikiPicture{
         width: 80%;
@@ -377,9 +374,6 @@ a:visited{
     }
     .textContainer {
         /* box-shadow: 1px 1px 18px 13px #060429; */
-    }
-    .smallContentTitle{
-        padding-top: 0vh;
     }
     .navigationName{
         font-size: 20px;
