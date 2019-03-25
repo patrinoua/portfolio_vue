@@ -55,13 +55,13 @@ var myProjectObjectsGr = myProjects.map(function(project) {
   }
 })
 
-app.get('/', function(req, res) {
-  res.render('projectData', {
-    content: contentEn,
-    myProjectObjects: myProjectObjects,
-    layout: 'welcome'
-  })
-})
+// app.get('/', function(req, res) {
+//   res.render('projectData', {
+//     content: contentEn,
+//     myProjectObjects: myProjectObjects,
+//     layout: 'welcome'
+//   })
+// })
 app.get('/.well-known/acme-challenge/gK7ja13haCtkKehwYMY4DYhbm0r21ImZd51d6wmqUDk', function(req, res) {
   return require('./validation.js')
 })
