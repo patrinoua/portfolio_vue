@@ -63,8 +63,6 @@ app.get('/', function(req, res) {
   })
 })
 
-
-angeliki.dev
 app.get('/gr', function(req, res) {
   res.render('projectData', {
     content: contentGr,
