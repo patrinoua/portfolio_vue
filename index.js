@@ -55,16 +55,14 @@ var myProjectObjectsGr = myProjects.map(function(project) {
   }
 })
 
-// app.get('/', function(req, res) {
-//   res.render('projectData', {
-//     content: contentEn,
-//     myProjectObjects: myProjectObjects,
-//     layout: 'welcome'
-//   })
-// })
-app.get('/.well-known/acme-challenge/bZ5uw5cv7kvmzhiWSTD2tf52d2XVqH6AzJFrxeKsLdk', function(req, res) {
-  return require('./validation.js')
+app.get('/', function(req, res) {
+  res.render('projectData', {
+    content: contentEn,
+    myProjectObjects: myProjectObjects,
+    layout: 'welcome'
+  })
 })
+
 
 angeliki.dev
 app.get('/gr', function(req, res) {
