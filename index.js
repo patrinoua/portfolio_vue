@@ -55,17 +55,14 @@ var myProjectObjectsGr = myProjects.map(function(project) {
   }
 })
 
-app.get('/.well-known/acme-challenge/RVfNJMIQmnmxGjUMy3Q4gRaQ6Au0fYBt6Rh6JqIPL2c', function(req, res) {
-  res.send('RVfNJMIQmnmxGjUMy3Q4gRaQ6Au0fYBt6Rh6JqIPL2c.u83xac6NN-5GRpBil3WO68UPpHfGPveksR2nLpxqYA4')
-})
 
-// app.get('/', function(req, res) {
-//   res.render('projectData', {
-//     content: contentEn,
-//     myProjectObjects: myProjectObjects,
-//     layout: 'welcome'
-//   })
-// })
+app.get('/', function(req, res) {
+  res.render('projectData', {
+    content: contentEn,
+    myProjectObjects: myProjectObjects,
+    layout: 'welcome'
+  })
+})
 
 app.get('/gr', function(req, res) {
   res.render('projectData', {
