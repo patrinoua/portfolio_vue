@@ -71,6 +71,14 @@ app.get(
     )
   }
 )
+app.get(
+  '/.well-known/acme-challenge/Zvb8MXjEkT69dpdpAcmjO73dIMRiRHFj_SVqZQiLBRA',
+  function(req, res) {
+    res.send(
+      'Zvb8MXjEkT69dpdpAcmjO73dIMRiRHFj_SVqZQiLBRA.u83xac6NN-5GRpBil3WO68UPpHfGPveksR2nLpxqYA4'
+    )
+  }
+)
 
 app.get('/gr', function(req, res) {
   res.render('projectData', {
