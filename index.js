@@ -55,7 +55,6 @@ var myProjectObjectsGr = myProjects.map(function(project) {
   }
 })
 
-
 app.get('/', function(req, res) {
   res.render('projectData', {
     content: contentEn,
@@ -63,6 +62,15 @@ app.get('/', function(req, res) {
     layout: 'welcome'
   })
 })
+
+app.get(
+  '/.well-known/acme-challenge/pPHJ45zbyYK6xes6yk_DJAlpy3eBotw3wu5hnk2jVe8',
+  function(req, res) {
+    res.send(
+      'pPHJ45zbyYK6xes6yk_DJAlpy3eBotw3wu5hnk2jVe8.u83xac6NN-5GRpBil3WO68UPpHfGPveksR2nLpxqYA4'
+    )
+  }
+)
 
 app.get('/gr', function(req, res) {
   res.render('projectData', {
