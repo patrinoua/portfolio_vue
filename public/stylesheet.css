@@ -322,7 +322,7 @@ a:visited {
   }
   #navigation {
     width: 99%;
-    border: 0;
+    /* border: 0; */
   }
   .contentTitle {
     padding-top: 5vh;
