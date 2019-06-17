@@ -1,0 +1,19 @@
+{
+  "displayName": "Spain",
+  "description": "An interactive app created after a visit to Spain",
+  "tryMsg": "Enjoy the view",
+  "codeMsg": "Check out the code",
+  "createdWith": "Created with React.js",
+  "heroku_url": "https://angeliki-spain.herokuapp.com",
+  "github_url": "https://github.com/patrinoua/spain",
+  "comment": "",
+  "comment_link": "",
+  "comment_url": "",
+
+  "displayNameGr": "Ισπανία",
+  "descriptionGr": "Διαδραστική Εφαρμογή με έμπνευση την Ισπανία",
+  "tryMsgGr": "Απολαύστε τη θέα",
+  "codeMsgGr": "Δείτε τον κώδικα",
+  "createdWithGr": "Δημιουργήθηκε με React.js",
+  "commentGr": ""
+}
