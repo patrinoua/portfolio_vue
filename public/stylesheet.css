@@ -42,16 +42,18 @@
 }
 .menuItem {
   color: rgba(255, 255, 255, 0.8);
-  padding: 2vh;
+  padding-right: 2vh;
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .languageItem {
-  color: rgba(255, 255, 255, 0.8);
   padding: 1vh;
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .menuItem:hover {
-  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+.menuItem:hover,
+.menuIcon:hover {
+  color: rgba(255, 255, 255, 1);
 }
 .menuIcon {
   opacity: 0.8;
@@ -304,11 +306,46 @@ a:hover {
 a:visited .menuItem {
   color: white;
 }
-a:visited {
-  color: black;
-}
+
 .spanWithSpaceUnder {
   padding-bottom: 50px;
+}
+@media (min-width: 1100px) {
+  .aboutAngelikiContentRight {
+    font-size: 1.3em;
+  }
+  .navigationName {
+    font-size: 3em;
+  }
+  .slideshow_caption {
+    display: flex;
+    align-items: center;
+    font-size: 1.9em;
+    width: auto;
+    margin-right: 100px;
+  }
+  .menuIcon {
+    transform: scale(1.5);
+  }
+  .menuItem,
+  .languageItem {
+    font-size: 1.6em;
+  }
+  .contentTitle {
+    font-size: 4em;
+  }
+  .smallContentTitle {
+    font-size: 3em;
+  }
+  .projectInfoText {
+    font-size: 1.4em;
+  }
+  .contactForm {
+    font-size: 1.4em;
+  }
+  #footer {
+    font-size: 1.4em;
+  }
 }
 @media (max-width: 750px) {
   main {
