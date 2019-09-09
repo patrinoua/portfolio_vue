@@ -12,6 +12,8 @@
         <meta property="og:url"content="http://angeliki.herokuapp.com" />
         <meta property="og:title" content="Angeliki Patrinou" />
         <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="navigation-stylesheet.css">
+        <link rel="stylesheet" href="responsive-stylesheet.css">
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
@@ -34,7 +36,7 @@
                             {{content.name}}
                         </div>
                         <div class="menuItems">
-                            <a class="menuItem" href="#aboutAngeliki">
+                            <a class="menuItem" href="#aboutMeSection">
                                 {{content.about}}
                             </a>
                             <a class="menuItem" href="#projectsBlock">
@@ -70,8 +72,26 @@
                 </div>
             </div>
         </div>
-        <div id="aboutAngeliki">
-            <div class="container">
+          <div class="aboutAngelikiBlock">
+            <div class="contentTitle aboutTitle">
+                {{content.about}}
+            </div>
+            <div class="aboutAngelikiContent">
+              <div id="circle">
+                <img src="assets/angeliki-mik-square.png" id="profilePic" class="aboutAngelikiPictureImg"/>
+              </div>
+              <div id="square" class="regularText">
+                  <div class="flexDirCol">
+                    {{content.personalDescription}}
+                    <div class="cvArea">
+                      <a href="https://www.dropbox.com/sh/3xwg2e6zvd1gwxv/AACbDtoaAVl6VvX4dqS_dL6Ca?dl=0" target="_blank">{{content.shortCv}}</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <!-- <div class="container">
                 <div class="aboutAngelikiBlock">
                     <div class="contentTitle">
                         {{content.about}}
@@ -90,10 +110,10 @@
                     </div>
                   </div>
                 </div>
-            </div>
-        </div>
+            </div> -->
+
         <div id="projectsBlock">
-            <div class="contentTitle textContainer">
+            <div class="contentTitle textContainer" style="box-shadow: none">
                 Projects
             </div>
             {{{body}}}
