@@ -146,7 +146,7 @@
 }
 @media (max-width: 400px) {
   .regularText {
-    font-size: 0.9em;
+    font-size: 1em;
   }
   #circle {
     transform: scale(0.65);
