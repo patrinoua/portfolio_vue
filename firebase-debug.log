@@ -1,0 +1,111 @@
+[debug] [2019-10-08T23:25:40.227Z] ----------------------------------------------------------------------
+[debug] [2019-10-08T23:25:40.230Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2019-10-08T23:25:40.230Z] CLI Version:   7.2.2
+[debug] [2019-10-08T23:25:40.230Z] Platform:      darwin
+[debug] [2019-10-08T23:25:40.230Z] Node Version:  v10.15.3
+[debug] [2019-10-08T23:25:40.231Z] Time:          Wed Oct 09 2019 01:25:40 GMT+0200 (Central European Summer Time)
+[debug] [2019-10-08T23:25:40.231Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-08T23:25:40.239Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-08T23:25:40.239Z] > authorizing via signed-in user
+[debug] [2019-10-08T23:25:40.240Z] [iam] checking project angeliki for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-10-08T23:25:40.241Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/angeliki:testIamPermissions  
+
+[debug] [2019-10-08T23:25:41.347Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-08T23:25:41.351Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/angeliki  
+ 
+[debug] [2019-10-08T23:25:41.660Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'angeliki'...
+[info] 
+[info] i  deploying functions, hosting
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] ✔  functions: Finished running predeploy script.
+[debug] [2019-10-08T23:25:44.562Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^8.0.0",
+    "firebase-functions": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "firebase-functions-test": "^0.1.6"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-10-08T23:25:44.563Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/angeliki/services/cloudfunctions.googleapis.com  
+ 
+[debug] [2019-10-08T23:25:44.564Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/angeliki/services/runtimeconfig.googleapis.com  
+ 
+[debug] [2019-10-08T23:25:45.660Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-08T23:25:45.712Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2019-10-08T23:25:45.713Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/angeliki/adminSdkConfig  
+ 
+[debug] [2019-10-08T23:25:46.009Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-08T23:25:46.011Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/angeliki/versions  
+
+[debug] [2019-10-08T23:25:47.496Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2019-10-08T23:25:47.500Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/angeliki/configs  
+ 
+[debug] [2019-10-08T23:25:48.509Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged functions (37.23 KB) for uploading
+[debug] [2019-10-08T23:25:48.928Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/angeliki/locations/us-central1/functions:generateUploadUrl  
+ 
+[debug] [2019-10-08T23:25:49.740Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-08T23:25:49.741Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-01c32af3-c96f-4e89-bba4-a44bfc12ab9a/742e9231-d117-4e02-adc1-470b64297882.zip?GoogleAccessId=service-108566255900@gcf-admin-robot.iam.gserviceaccount.com&Expires=1570578949&Signature=SjzuBt%2FuhgaX5Kbi0wz6qt7S%2B0uz8aGjqRXZtdeVPA1HNMtHEaEyEm%2FtcwNw4bYVUbDOGuW43w7DyzklYdwLqeMYZu1fd8jDo58YGZZIomWyK7Ua75cX8KwcLvuOmUA2WehY8q22ceCREAgGyJ9FWz9MJJClG9Sj1aWubHl56yT%2FZCaOLYn%2BSfPoQt5uyQfPBPC5UuQZV%2FqfWRRqZPfPwfyz03RoYVaEvPHU5eXHbOFF5q%2F5%2F9HTOrEw0begdhZWLvlFxTHPJLcpXLTBJTlCQBCkQoeFtFjwRtcOicl8qneEB%2BVJSlXa%2F5LWEwKPcHrJs7Mp8tgHA14i%2FiSpO4NEDg%3D%3D  
+ <request body omitted>
+[debug] [2019-10-08T23:25:50.260Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: functions folder uploaded successfully
+[info] i  hosting[angeliki]: beginning deploy...
+[info] i  hosting[angeliki]: found 11 files in public
+[debug] [2019-10-08T23:25:50.274Z] [hosting] hash cache [cHVibGlj] load error: lines is not defined
+[debug] [2019-10-08T23:25:50.336Z] [hosting] hash cache [cHVibGlj] stored for 11 files
+[debug] [2019-10-08T23:25:50.337Z] [hosting][hash queue][FINAL]
+[debug] [2019-10-08T23:25:50.337Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/angeliki/versions/ef95a5cf3da720de:populateFiles  
+ <request body omitted>
+[debug] [2019-10-08T23:25:51.867Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-08T23:25:51.867Z] [hosting][populate queue][FINAL]
+[debug] [2019-10-08T23:25:51.867Z] [hosting] uploads queued: 0
+[debug] [2019-10-08T23:25:51.867Z] [hosting][upload queue][FINAL]
+[info] ✔  hosting[angeliki]: file upload complete
+[debug] [2019-10-08T23:25:51.868Z] [hosting] deploy completed after 1605ms
+[debug] [2019-10-08T23:25:52.028Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/angeliki/locations/-/functions  
+ 
+[debug] [2019-10-08T23:25:52.618Z] <<< HTTP RESPONSE 200
+[info] i  functions: updating Node.js 8 function app(us-central1)...
+[debug] [2019-10-08T23:25:52.621Z] Trigger is:  {"httpsTrigger":{}}
+[debug] [2019-10-08T23:25:52.623Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/angeliki/services/cloudscheduler.googleapis.com  
+ 
+[debug] [2019-10-08T23:25:53.861Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-08T23:25:53.864Z] >>> HTTP REQUEST PATCH https://cloudfunctions.googleapis.com/v1/projects/angeliki/locations/us-central1/functions/app {"updateMask":"sourceUploadUrl,name,labels,runtime,httpsTrigger"} 
+
+[debug] [2019-10-08T23:25:54.429Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-08T23:25:54.432Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/angeliki/locations/-/functions  
+ 
+[debug] [2019-10-08T23:25:54.923Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-08T23:25:54.925Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/YW5nZWxpa2kvdXMtY2VudHJhbDEvYXBwLzlobzViWmxZM3hF  
+ 
+[debug] [2019-10-08T23:25:55.680Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-08T23:25:57.687Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/YW5nZWxpa2kvdXMtY2VudHJhbDEvYXBwLzlobzViWmxZM3hF  
+ 
+[debug] [2019-10-08T23:25:58.140Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-08T23:26:00.145Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/YW5nZWxpa2kvdXMtY2VudHJhbDEvYXBwLzlobzViWmxZM3hF  
+ 
+[debug] [2019-10-08T23:26:00.515Z] <<< HTTP RESPONSE 200
