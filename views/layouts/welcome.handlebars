@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
@@ -9,7 +10,7 @@
   δημιουργία ιστοσελίδας, δημιουργία e-shop ">
   <meta property="og:image" content="assets/angeliki-mik.png" />
   <meta property="og:description" content="Angeliki Patrinou | Full Stack Developer" />
-  <meta property="og:url"content="http://angeliki.herokuapp.com" />
+  <meta property="og:url" content="http://angeliki.herokuapp.com" />
   <meta property="og:title" content="Angeliki Patrinou" />
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="navigation-stylesheet.css">
@@ -23,9 +24,13 @@
   <title>Angeliki</title>
 </head>
 <style>
-*{
-  font-family: {{content.myFont}}
-}
+  * {
+    font-family: {
+        {
+        content.myFont
+      }
+    }
+  }
 </style>
 <main>
   <div id="header" style="background-image: url(assets/background.jpg); background-size:cover">
@@ -45,86 +50,84 @@
             <a class="menuItem" href="#contactBlock">
               {{content.contact}}
             </a>
-            <a class="menuIcon githubIcon"
-            href="https://github.com/patrinoua/"
-            target="_blank">
-            <img src="assets/github.png" />
-          </a>
-          <a class="menuIcon linkedinIcon"
-          href="https://www.linkedin.com/in/patrinoua/"
-          target="_blank">
+            <a class="menuIcon githubIcon" href="https://github.com/patrinoua/" target="_blank">
+              <img src="assets/github.png" />
+            </a>
+            <a class="menuIcon linkedinIcon" href="https://www.linkedin.com/in/patrinoua/" target="_blank">
+              <img src="assets/linkedInn.png" />
+            </a>
+            <div class="borderLine menuItem">
+            </div>
+            <a href="/" class="menuItem languageItem">EN</a> |
+            <a href="gr" class="menuItem languageItem">GR</a>
+            <!-- <a href="de" class="languageItem" style="color:rgba(255,255,255,0.8);"> | DE</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="aboutMeSection">
+      <div class="container">
+        <div class="slideshow_caption">
+          <h2>{{content.title}}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="aboutAngelikiBlock">
+    <div class="contentTitle aboutTitle">
+      {{content.about}}
+    </div>
+    <div class="aboutAngelikiContent">
+      <div id="circle">
+        <img src="assets/angeliki-mik.png" id="profilePic" class="aboutAngelikiPictureImg" />
+      </div>
+      <div id="square" class="regularText">
+        <div class="flexDirCol">
+          {{content.personalDescription}}
+          <div class="cvArea">
+            <a href="https://www.dropbox.com/sh/3xwg2e6zvd1gwxv/AACbDtoaAVl6VvX4dqS_dL6Ca?dl=0"
+              target="_blank">{{content.shortCv}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="projectsBlock">
+    <div class="contentTitle textContainer" style="box-shadow: none">
+      Projects
+    </div>
+    {{{body}}}
+  </div>
+  <div id="contactBlock">
+    <div class="contactForm">
+      <div class="contentTitle">
+        {{content.contact}}
+      </div>
+      <div> patrinoua@gmail.com </div>
+      <!-- <div> +49 15734558931 </div> -->
+      <div class="inARow">
+        <a class="bigIcon githubIcon" href="https://github.com/patrinoua/" target="_blank">
+          <img src="assets/github.png" />
+        </a>
+        <a class="bigIcon linkedinIcon" href="https://www.linkedin.com/in/patrinoua/" target="_blank">
           <img src="assets/linkedInn.png" />
         </a>
-        <div class="borderLine menuItem">
-        </div>
-        <a href="/" class="menuItem languageItem">EN</a> |
-        <a href="gr" class="menuItem languageItem">GR</a>
-        <!-- <a href="de" class="languageItem" style="color:rgba(255,255,255,0.8);"> | DE</a> -->
       </div>
     </div>
   </div>
-</div>
-<div id="aboutMeSection">
-  <div class="container">
-    <div class="slideshow_caption">
-      <h2>{{content.title}}</h2>
-    </div>
+  <div id="footer">
+    <span>© 2019 Angeliki Patrinou </span>
   </div>
-</div>
-</div>
-<div class="aboutAngelikiBlock">
-  <div class="contentTitle aboutTitle">
-    {{content.about}}
-  </div>
-  <div class="aboutAngelikiContent">
-    <div id="circle">
-      <img src="assets/angeliki-mik-square.png" id="profilePic" class="aboutAngelikiPictureImg"/>
-    </div>
-    <div id="square" class="regularText">
-      <div class="flexDirCol">
-        {{content.personalDescription}}
-        <div class="cvArea">
-          <a href="https://www.dropbox.com/sh/3xwg2e6zvd1gwxv/AACbDtoaAVl6VvX4dqS_dL6Ca?dl=0" target="_blank">{{content.shortCv}}</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div id="projectsBlock">
-  <div class="contentTitle textContainer" style="box-shadow: none">
-    Projects
-  </div>
-  {{{body}}}
-</div>
-<div id="contactBlock">
-  <div class="contactForm">
-    <div class="contentTitle">
-      {{content.contact}}
-    </div>
-    <div> patrinoua@gmail.com </div>
-    <!-- <div> +49 15734558931 </div> -->
-    <div class="inARow">
-      <a class="bigIcon githubIcon" href="https://github.com/patrinoua/" target="_blank">
-        <img src="assets/github.png" />
-      </a>
-      <a class="bigIcon linkedinIcon" href="https://www.linkedin.com/in/patrinoua/" target="_blank">
-        <img src="assets/linkedInn.png" />
-      </a>
-    </div>
-  </div>
-</div>
-<div id="footer">
-  <span>© 2019 Angeliki Patrinou </span>
-</div>
-<script>
-$('.menuItem').click(function(e){
-  e.preventDefault();
-  let navigationTarget = '#'+e.target.href.split("#").pop();
-  let navigationTargetSelector=$(navigationTarget);
-  $('html, body').animate({
-    scrollTop: $(navigationTarget).offset().top
-  }, "slow");
-});
-</script>
+  <script>
+    $('.menuItem').click(function (e) {
+      e.preventDefault();
+      let navigationTarget = '#' + e.target.href.split("#").pop();
+      let navigationTargetSelector = $(navigationTarget);
+      $('html, body').animate({
+        scrollTop: $(navigationTarget).offset().top
+      }, "slow");
+    });
+  </script>
 </main>
+
 </html>
