@@ -192,6 +192,12 @@ a:visited .menuItem {
 .bigIcon {
   border-radius: 50%;
   padding: 2vh;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
 .bigIcon img {
   width: 60px;
