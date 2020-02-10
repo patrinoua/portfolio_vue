@@ -1,0 +1,12 @@
+{
+  "displayName": "Custom Portfolio Webpage",
+  "description": "I designed and developed this online Portfolio to showcase Scientific Projects.",
+  "heroku_url": "http://klazaridis.com",
+  "createdWith": "Built with Handlebars & Vue",
+  "comment_link": " ",
+  "comment_url": " ",
+
+  "displayNameGr": "Custom Portfolio Webpage",
+  "descriptionGr": "Σχεδίασα και ανέπτυξα αυτό το Πορτφόλιο στο οποίο μπορεί κάποιος να μάθει περισσότερα για ερευνητικά projects",
+  "createdWithGr": "Δημιουργήθηκε με χρήση Handlebars & Vue"
+}
